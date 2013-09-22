@@ -1,4 +1,6 @@
 $(function(){
+	
+	
 	$('.home-link').bind('click',function(){
    		$("html, body").animate({ scrollTop: 0 }, 500);
 	});
@@ -18,4 +20,6 @@ $(function(){
 
 
 	$('[data-toggle="tooltip"]').tooltip();
+
+	$('audio').get(0).play();
 })
