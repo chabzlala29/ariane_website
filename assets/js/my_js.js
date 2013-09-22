@@ -1,4 +1,7 @@
 $(function(){
+	$('.home-link').bind('click',function(){
+   		$("html, body").animate({ scrollTop: 0 }, 500);
+	});
 	$('#navbar-main .gallery-link').bind('click',function(){
    		$("html, body").animate({ scrollTop: $('.gallery').offset().top }, 500);
 	});
